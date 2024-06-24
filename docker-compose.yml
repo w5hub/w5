@@ -29,7 +29,7 @@ services:
       - w5Net
 
   mysql:
-    image: mysql
+    image: mysql:5.7.44
     restart: always
     container_name: w5_mysql
     ports:

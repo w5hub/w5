@@ -1,0 +1,33 @@
+{
+  "identification": "w5soar",
+  "is_public": true,
+  "name": "爱语飞飞",
+  "version": "0.1",
+  "description": "爱语飞飞微信通知",
+  "type": "消息通知",
+  "action": [
+    {
+      "name": "微信通知",
+      "func": "send"
+    }
+  ],
+  "args": {
+    "send": [
+      {
+        "key": "key",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "text",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "desp",
+        "type": "textarea",
+        "required": false
+      }
+    ]
+  }
+}
